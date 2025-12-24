@@ -26,3 +26,5 @@ spring.security.user.password=...
 ```
 
 Alternatively, create an annotated `@Configuration` class with an InMemoryManager instance and SpringBoot will use credentials from here instead.
+
+The main class is `DemoSecurityConfig.java`
